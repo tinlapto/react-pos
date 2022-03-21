@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery render 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-wrap: wrap;"
+  >
+    <div
+      class="sc-bdvvtL egAXI"
+    >
+      <div
+        class="sc-gsDKAQ gKCqzO"
+      />
+      <div
+        class="sc-dkPtRN lmuKJx"
+      >
+        test name - $10
+      </div>
+      <button
+        class="ant-btn ant-btn-default"
+        style="width: 100%;"
+        type="button"
+      >
+        <span>
+          Choose
+        </span>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

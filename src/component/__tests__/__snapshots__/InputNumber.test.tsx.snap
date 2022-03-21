@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputNumber render 1`] = `
+<DocumentFragment>
+  <span
+    class="ant-input-group-wrapper"
+    style="text-align: right;"
+  >
+    <span
+      class="ant-input-wrapper ant-input-group"
+    >
+      <span
+        class="ant-input-group-addon"
+      >
+        <span
+          aria-label="plus"
+          class="anticon anticon-plus"
+          role="img"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="plus"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <defs>
+              <style />
+            </defs>
+            <path
+              d="M482 152h60q8 0 8 8v704q0 8-8 8h-60q-8 0-8-8V160q0-8 8-8z"
+            />
+            <path
+              d="M176 474h672q8 0 8 8v60q0 8-8 8H176q-8 0-8-8v-60q0-8 8-8z"
+            />
+          </svg>
+        </span>
+      </span>
+      <input
+        class="ant-input"
+        type="text"
+        value="1"
+      />
+      <span
+        class="ant-input-group-addon"
+      >
+        <span
+          aria-label="minus"
+          class="anticon anticon-minus"
+          role="img"
+          tabindex="-1"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="minus"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M872 474H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h720c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </span>
+      </span>
+    </span>
+  </span>
+</DocumentFragment>
+`;

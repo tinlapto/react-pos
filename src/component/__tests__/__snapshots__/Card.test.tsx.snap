@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvtL egAXI"
+  >
+    <div
+      class="sc-gsDKAQ kZkIoS"
+    />
+    <div
+      class="sc-dkPtRN lmuKJx"
+    >
+      test card
+    </div>
+    <button
+      class="ant-btn ant-btn-default"
+      style="width: 100%;"
+      type="button"
+    >
+      <span>
+        Choose
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;
