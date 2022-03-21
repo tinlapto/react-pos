@@ -125,6 +125,7 @@ exports[`Main render 1`] = `
       </div>
     </div>
   </div>
+  <div />
   <button>
     Add To Cart
   </button>
