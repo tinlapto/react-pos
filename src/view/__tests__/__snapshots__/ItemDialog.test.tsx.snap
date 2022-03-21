@@ -438,7 +438,6 @@ exports[`ItemDialog render loading 1`] = `
                 </button>
                 <button
                   class="ant-btn ant-btn-primary"
-                  disabled=""
                   type="button"
                 >
                   <span>

@@ -44,7 +44,6 @@ const ItemDialog = ({
       onError: (err) => {
         message.error(err.message);
       },
-      keepPreviousData: false,
     }
   );
 
@@ -69,7 +68,8 @@ const ItemDialog = ({
     setSelectedToppings([]);
     setSelectedSize(undefined);
     setCount(1);
-  }, [id, refetch]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [id]);
 
   const handleOnAdd = () => {
     onAdd({

@@ -35,6 +35,7 @@ describe("ItemDialog", () => {
       dispatchEvent: jest.fn(),
     });
   });
+
   test("render add", () => {
     const onAdd = jest.fn();
     const onCancel = jest.fn();
