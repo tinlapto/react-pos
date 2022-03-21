@@ -28,11 +28,11 @@ const Cart = ({
           />
         ))}
         <Divider />
-        <Row justify="end" gutter={10}>
+        <Row style={{ padding: 5 }} justify="end" gutter={10}>
           <Col style={{ textAlign: "right" }} span={10}>
             Total:
           </Col>
-          <Col span={4}>
+          <Col style={{ textAlign: "right" }} span={4}>
             ${items.reduce((v, item) => item.price * item.count + v, 0)}
           </Col>
         </Row>

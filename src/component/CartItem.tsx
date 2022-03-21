@@ -56,7 +56,14 @@ const CartItem = ({
           </div>
         </div>
       </Col>
-      <Col style={{ display: "flex", alignItems: "center" }} span={4}>
+      <Col
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "right",
+        }}
+        span={4}
+      >
         ${price}
       </Col>
     </Row>

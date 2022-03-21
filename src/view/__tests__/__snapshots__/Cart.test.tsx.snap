@@ -65,7 +65,7 @@ exports[`Cart render remove all 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center;"
+          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center; justify-content: right;"
         >
           $10
         </div>
@@ -127,7 +127,7 @@ exports[`Cart render remove all 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center;"
+          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center; justify-content: right;"
         >
           $10
         </div>
@@ -138,7 +138,7 @@ exports[`Cart render remove all 1`] = `
       />
       <div
         class="ant-row ant-row-end"
-        style="margin-left: -5px; margin-right: -5px;"
+        style="margin-left: -5px; margin-right: -5px; padding: 5px;"
       >
         <div
           class="ant-col ant-col-10"
@@ -148,7 +148,7 @@ exports[`Cart render remove all 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px;"
+          style="padding-left: 5px; padding-right: 5px; text-align: right;"
         >
           $20
         </div>
@@ -279,7 +279,7 @@ exports[`Cart render remove one 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center;"
+          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center; justify-content: right;"
         >
           $10
         </div>
@@ -341,7 +341,7 @@ exports[`Cart render remove one 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center;"
+          style="padding-left: 5px; padding-right: 5px; display: flex; align-items: center; justify-content: right;"
         >
           $10
         </div>
@@ -352,7 +352,7 @@ exports[`Cart render remove one 1`] = `
       />
       <div
         class="ant-row ant-row-end"
-        style="margin-left: -5px; margin-right: -5px;"
+        style="margin-left: -5px; margin-right: -5px; padding: 5px;"
       >
         <div
           class="ant-col ant-col-10"
@@ -362,7 +362,7 @@ exports[`Cart render remove one 1`] = `
         </div>
         <div
           class="ant-col ant-col-4"
-          style="padding-left: 5px; padding-right: 5px;"
+          style="padding-left: 5px; padding-right: 5px; text-align: right;"
         >
           $20
         </div>
