@@ -52,10 +52,12 @@ const Cart = ({
           onConfirm={() => setItems([])}
           okText={"Remove"}
           okButtonProps={{ danger: true }}
+          disabled={items.length === 0}
         >
           <Button
             type="primary"
             size={"large"}
+            disabled={items.length === 0}
             danger
             icon={<CloseOutlined />}
           />
