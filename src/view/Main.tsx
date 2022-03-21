@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Main = () => {
-  const [activeItemId, setActiveItemId] = useState<number | undefined>();
+  const [activeItemId, setActiveItemId] = useState<number>();
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const onCardClick = (id: number) => {

@@ -41,7 +41,7 @@ const Cart = ({
         <Button
           style={{ flex: 1, marginRight: 5 }}
           type="primary"
-          size={"large"}
+          size="large"
           icon={<ShoppingCartOutlined />}
           disabled={items.length === 0}
         >
@@ -56,7 +56,7 @@ const Cart = ({
         >
           <Button
             type="primary"
-            size={"large"}
+            size="large"
             disabled={items.length === 0}
             danger
             icon={<CloseOutlined />}
